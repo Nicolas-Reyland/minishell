@@ -1,6 +1,6 @@
 CFLAGS = -Wall -Wextra -g -fsanitize=address
 
-minishell: strtools.o command.o parser.o prompt.o tokenize.o
+minishell: src/strtools.o src/command.o src/parser.o src/prompt.o src/tokenize.o
 
 clean:
-	rm *.o minishell -f
+	rm src/*.o minishell -f

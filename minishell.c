@@ -2,10 +2,10 @@
 #include <errno.h>
 #include <unistd.h>
 #include <signal.h>
-#include "strtools.h"
-#include "command.h"
-#include "prompt.h"
-#include "tokenize.h"
+#include "src/strtools.h"
+#include "src/command.h"
+#include "src/prompt.h"
+#include "src/tokenize.h"
 
 #define LINE_BUFFER_SIZE 4096
 
@@ -67,4 +67,3 @@ void init_signal_handlers()
     signal(SIGABRT, minishell_exit);
     signal(SIGTERM, minishell_normal_exit);
 }
-
