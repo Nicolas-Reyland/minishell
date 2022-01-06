@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Compiled project
+minishell
+
 # Object files
 *.o
 *.ko
