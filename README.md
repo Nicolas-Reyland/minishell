@@ -1,2 +1,2 @@
 # minishell
-Small shell, written in C. It implements most of the SCL (Shell Command Language)
+Small shell, written in C. It implements almost nothing, but it was fun to do !
